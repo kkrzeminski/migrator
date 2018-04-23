@@ -1,0 +1,5 @@
+rootProject.name = 'migrator'
+
+include ':dbschema-scripts'
+include ':dbschema-migrator-tool'
+include ':dbschema-migrator-package'

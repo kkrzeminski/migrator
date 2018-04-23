@@ -1,0 +1,12 @@
+project(':dbschema-scripts') {
+    apply plugin: 'java'
+}
+
+project(':dbschema-migrator-tool') {
+    apply plugin: 'java'
+    apply plugin: 'groovy'
+}
+
+project(':dbschema-migrator-package') {
+    apply plugin: 'java'
+}
